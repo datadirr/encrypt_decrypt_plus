@@ -76,3 +76,9 @@ String decryptTxt = cipher.xorDecode(encryptTxt);
 String encryptTxt = Cipher().xorEncode("Hello datadirr");
 String decryptTxt = Cipher().xorDecode(encryptTxt);
 ```
+
+
+### JWT token decode
+```dart
+JWT.decode("jwt token");
+```
