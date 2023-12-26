@@ -2,10 +2,10 @@ name: encrypt_decrypt_plus
 description: This package helps to encryption and decryption with or without secret key and JWT decode.
 repository: https://github.com/datadirr/encrypt_decrypt_plus
 homepage: https://datadirr.com
-version: 1.1.0
+version: 1.1.1
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
+  sdk: ">=3.0.6 <4.0.0"
   flutter: ">=3.3.0"
 
 dependencies:
