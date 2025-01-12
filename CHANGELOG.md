@@ -1,3 +1,7 @@
+## 1.6.0
+
+* AES-256-CBC for encryption and decryption.
+
 ## 1.5.0
 
 * AES-256-CBC for encryption and decryption.
