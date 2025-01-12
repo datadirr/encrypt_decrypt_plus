@@ -2,7 +2,7 @@ name: encrypt_decrypt_plus
 description: This package helps to encryption and decryption with or without secret key and JWT decode.
 repository: https://github.com/datadirr/encrypt_decrypt_plus
 homepage: https://datadirr.com
-version: 1.4.0
+version: 1.5.0
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
@@ -21,7 +21,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

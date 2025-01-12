@@ -14,8 +14,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final String _plainTxt = "Hello datadirr";
-  String _encryptTxt = "";
-  String _decryptTxt = "";
+  String? _encryptTxt = "";
+  String? _decryptTxt = "";
   final AES _aes = AES(
       secretKey: "datadirrdatadirrdatadirrdatadirr", iv: "datadirrdatadirr");
 
@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _decryptAES256CBC() async {
-    _decryptTxt = _aes.decryptAES256CBC(_encryptTxt);
+    _decryptTxt = _aes.decryptAES256CBC(_encryptTxt ?? "");
     setState(() {});
   }
 }
