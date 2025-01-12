@@ -1,6 +1,6 @@
 ## 1.3.0
 
-* Upgrade dependencies
+* AES-256-CBC for encryption and decryption.
 
 ## 1.2.0
 

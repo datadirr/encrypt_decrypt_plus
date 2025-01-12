@@ -31,6 +31,16 @@ For help getting started with Flutter, view the online
 Please follow this [example](https://github.com/datadirr/encrypt_decrypt_plus/tree/master/example) here.
 
 
+### AES Encryption and Decryption
+
+* AES-256-CBC
+```dart
+AES aes = AES(secretKey: "datadirrdatadirrdatadirrdatadirr", iv: "datadirrdatadirr");
+String encryptTxt = aes.encryptAES256CBC("Hello datadirr");
+String decryptTxt = aes.decryptAES256CBC(encryptTxt);
+```
+
+
 ### XOR Encryption and Decryption
 
 1. With Secret Key
@@ -80,5 +90,5 @@ String decryptTxt = Cipher().xorDecode(encryptTxt);
 
 ### JWT token decode
 ```dart
-JWT.decode("jwt token");
+JWT.decode("jwt_token");
 ```
