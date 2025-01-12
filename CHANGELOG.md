@@ -1,6 +1,7 @@
 ## 1.5.0
 
 * AES-256-CBC for encryption and decryption.
+* Change Cipher -> XOR
 
 ## 1.4.0
 
