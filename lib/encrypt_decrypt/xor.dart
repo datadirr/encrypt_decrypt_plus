@@ -1,10 +1,11 @@
 import 'dart:convert';
 
-/// Cipher using XOR for encryption & decryption
-class Cipher {
+/// encryption and decryption using XOR
+class XOR {
+  /// [secretKey] set key for encryption and decryption
   String? secretKey;
 
-  Cipher({this.secretKey});
+  XOR({this.secretKey});
 
   /// xor encryption & decryption using the secret key
   List<int> _xor(List<int> bytes, List<int> keys) {

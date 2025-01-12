@@ -1,4 +1,4 @@
-import 'package:encrypt_decrypt_plus/cipher/aes.dart';
+import 'package:encrypt_decrypt_plus/encrypt_decrypt/aes.dart';
 import 'package:flutter/material.dart';
 
 void main() {

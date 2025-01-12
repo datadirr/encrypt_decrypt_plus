@@ -47,28 +47,28 @@ String decryptTxt = aes.decryptAES256CBC(encryptTxt);
 
 * Method 1
 ```dart
-Cipher cipher = Cipher(secretKey: "datadirr");
-String encryptTxt = cipher.xorEncode("Hello datadirr");
-String decryptTxt = cipher.xorDecode(encryptTxt);
+XOR xor = XOR(secretKey: "datadirr");
+String encryptTxt = xor.xorEncode("Hello datadirr");
+String decryptTxt = xor.xorDecode(encryptTxt);
 ```
 
 * Method 2
 ```dart
-Cipher cipher = Cipher();
-String encryptTxt = cipher.xorEncode("Hello datadirr", secretKey: "datadirr");
-String decryptTxt = cipher.xorDecode(encryptTxt, secretKey: "datadirr");
+XOR xor = XOR();
+String encryptTxt = xor.xorEncode("Hello datadirr", secretKey: "datadirr");
+String decryptTxt = xor.xorDecode(encryptTxt, secretKey: "datadirr");
 ```
 
 * Method 3
 ```dart
-String encryptTxt = Cipher().xorEncode("Hello datadirr", secretKey: "datadirr");
-String decryptTxt = Cipher().xorDecode(encryptTxt, secretKey: "datadirr");
+String encryptTxt = XOR().xorEncode("Hello datadirr", secretKey: "datadirr");
+String decryptTxt = XOR().xorDecode(encryptTxt, secretKey: "datadirr");
 ```
 
 * Method 4
 ```dart
-String encryptTxt = Cipher(secretKey: "datadirr").xorEncode("Hello datadirr");
-String decryptTxt = Cipher(secretKey: "datadirr").xorDecode(encryptTxt);
+String encryptTxt = XOR(secretKey: "datadirr").xorEncode("Hello datadirr");
+String decryptTxt = XOR(secretKey: "datadirr").xorDecode(encryptTxt);
 ```
 
 
@@ -76,15 +76,15 @@ String decryptTxt = Cipher(secretKey: "datadirr").xorDecode(encryptTxt);
 
 * Method 1
 ```dart
-Cipher cipher = Cipher();
-String encryptTxt = cipher.xorEncode("Hello datadirr");
-String decryptTxt = cipher.xorDecode(encryptTxt);
+XOR xor = XOR();
+String encryptTxt = xor.xorEncode("Hello datadirr");
+String decryptTxt = xor.xorDecode(encryptTxt);
 ```
 
 * Method 2
 ```dart
-String encryptTxt = Cipher().xorEncode("Hello datadirr");
-String decryptTxt = Cipher().xorDecode(encryptTxt);
+String encryptTxt = XOR().xorEncode("Hello datadirr");
+String decryptTxt = XOR().xorDecode(encryptTxt);
 ```
 
 

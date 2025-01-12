@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:encrypt/encrypt.dart' as aes;
 
-/// AES for encryption & decryption
+/// encryption and decryption using AES
 class AES {
   /// [secretKey] 32 character long
   String secretKey;
