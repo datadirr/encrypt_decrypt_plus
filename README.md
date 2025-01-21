@@ -35,7 +35,7 @@ Please follow this [example](https://github.com/datadirr/encrypt_decrypt_plus/tr
 
 * AES-256-CBC
 ```dart
-AES aes = AES(secretKey: "datadirrdatadirrdatadirrdatadirr", iv: "datadirrdatadirr");
+AES aes = AES(secretKey: "datadirr", iv: "datadirr");
 String encryptTxt = aes.encryptAES256CBC("Hello datadirr");
 String decryptTxt = aes.decryptAES256CBC(encryptTxt);
 ```

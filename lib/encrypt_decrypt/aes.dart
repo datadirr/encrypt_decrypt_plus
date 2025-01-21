@@ -28,7 +28,7 @@ class AES {
     }
   }
 
-  String? encryptAES256CBC(dynamic data) {
+  Future<String?> encryptAES256CBC(dynamic data) async {
     try {
       if (data == null) {
         return null;
@@ -44,7 +44,7 @@ class AES {
     }
   }
 
-  dynamic decryptAES256CBC(String encryptedData) {
+  Future<dynamic> decryptAES256CBC(String encryptedData) async {
     try {
       if (encryptedData.trim().isEmpty) {
         return null;
