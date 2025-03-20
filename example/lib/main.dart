@@ -29,16 +29,18 @@ class _MyAppState extends State<MyApp> {
               children: [
                 Text("plainTxt: $_plainTxt"),
                 ElevatedButton(
-                    onPressed: () {
-                      _encryptAES256CBC();
-                    },
-                    child: const Text("Encrypt")),
+                  onPressed: () {
+                    _encryptAES256CBC();
+                  },
+                  child: const Text("Encrypt"),
+                ),
                 Text("encryptTxt: $_encryptTxt"),
                 ElevatedButton(
-                    onPressed: () {
-                      _decryptAES256CBC();
-                    },
-                    child: const Text("Decrypt")),
+                  onPressed: () {
+                    _decryptAES256CBC();
+                  },
+                  child: const Text("Decrypt"),
+                ),
                 Text("decryptTxt: $_decryptTxt"),
               ],
             ),

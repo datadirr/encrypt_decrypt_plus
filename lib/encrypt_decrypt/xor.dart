@@ -39,7 +39,8 @@ class XOR {
     this.secretKey = secretKey ?? this.secretKey;
     if (this.secretKey != null && this.secretKey!.isNotEmpty) {
       return base64Encode(
-          _xor(utf8.encode(content), utf8.encode(this.secretKey!)));
+        _xor(utf8.encode(content), utf8.encode(this.secretKey!)),
+      );
     } else {
       return base64Encode(_encrypt(utf8.encode(content)));
     }
@@ -49,8 +50,9 @@ class XOR {
   String xorDecode(String content, {String? secretKey}) {
     this.secretKey = secretKey ?? this.secretKey;
     if (this.secretKey != null && this.secretKey!.isNotEmpty) {
-      return utf8
-          .decode(_xor(base64Decode(content), utf8.encode(this.secretKey!)));
+      return utf8.decode(
+        _xor(base64Decode(content), utf8.encode(this.secretKey!)),
+      );
     } else {
       return utf8.decode(_decrypt(base64Decode(content)));
     }

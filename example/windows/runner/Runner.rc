@@ -93,7 +93,7 @@ BEGIN
             VALUE "FileDescription", "encrypt_decrypt_plus_example" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "encrypt_decrypt_plus_example" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.datadirr. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.datadirr. All rights reserved." "\0"
             VALUE "OriginalFilename", "encrypt_decrypt_plus_example.exe" "\0"
             VALUE "ProductName", "encrypt_decrypt_plus_example" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
