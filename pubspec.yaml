@@ -2,7 +2,7 @@ name: encrypt_decrypt_plus
 description: "This package helps to encryption and decryption with or without secret key and JWT decode."
 repository: https://github.com/datadirr/encrypt_decrypt_plus
 homepage: https://datadirr.com
-version: 2.0.0
+version: 2.1.0
 
 environment:
   sdk: ^3.7.2
